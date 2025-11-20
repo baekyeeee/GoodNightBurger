@@ -158,7 +158,7 @@
 }
 .findus{
     height: 1200px;
-    background-image: url(/background/red_cloud.png);
+    background-image: url(./background/red_cloud.png);
     background-size: 100%;  
    background-repeat: no-repeat;
     display: flex;
