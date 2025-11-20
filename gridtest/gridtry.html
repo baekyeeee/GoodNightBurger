@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.story{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+}
+
+.story::before{
+    content: "";
+    position: absolute;
+    top: 40%;
+    height: 45%;
+    left: 0;
+    right: 0;
+    background-color: #88a9c6;
+    z-index: -1;
+}
+.story_text{
+    font-size: 25px;
+}
+.story_img img{
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+
+
+
+    <section class="story">
+        <div class="story_text">
+            主打「夜晚的第一口快樂」! 我們堅持使用 100% 純牛肉製作厚實多汁的漢堡排，搭配新鮮烘焙的麵包與手工特製醬料，呈現出最道地的美式風味。每一份漢堡都以最誠實的食材與細膩的火候打造。Good Night Burger 不只是填飽肚子的地方，更是一個能放鬆心情、享受深夜美食的角落。
+        </div>
+        <div class="story_img">
+            <img src="/gridtest/firstpic.png" alt="">
+        </div>
+
+
+    </section>
+    
+</body>
+</html>

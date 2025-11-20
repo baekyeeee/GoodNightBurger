@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .fashion-image{
+            position: relative;
+        }
+        .fashion-image .bottom {
+        position:absolute;
+        width:22%;
+        top: 0;
+        left: 10px;
+}
+
+
+      .fashion-image .top {
+        position:absolute;
+        width:20%;
+        top: 44px;
+        left: 6px;
+}
+
+
+.fashion-image img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.fashion-image img.top:hover {
+  opacity:0;
+}
+    </style>
+</head>
+<body>
+   
+    <div class="fashion-image">
+    <img class="bottom" src="/menuphoto/goodspic/beige_cap.png" />
+    <img class="top" src="/menuphoto/goodspic/green_cap.png" />
+</div>
+</body>
+</html>

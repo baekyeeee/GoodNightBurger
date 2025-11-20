@@ -1,0 +1,261 @@
+*{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            box-sizing: border-box;
+            /* outline: 1px solid pink; */
+        }
+      
+    .baloo-2{
+        font-family: "Baloo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+}
+
+        body {
+    background-color: #FAF3D3;
+    font-family: "Baloo 2", sans-serif;
+}
+
+.header{
+    width: 90.6%;
+    height: 90px;
+    background-color: #6593c0;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    position: fixed;      
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+}
+.headerword{
+    display: flex;
+   margin-right: 120px;
+    align-items: center;
+}    
+
+    .headerword a{
+        color: #201F1F;
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+    .left{
+        margin-right: 200px;
+    }
+    .right{
+    margin-left: 95px;
+}
+    .left, .right {
+    display: flex;
+    position: relative;
+    /* left: 20px; */
+    justify-content: center; 
+    gap: 100px;
+}
+
+    .middle img{
+        width: 5%;
+        position: absolute;
+        left: 50%;
+        top: 2px;
+        transform: translateX(-50%);
+        padding: 0;
+        }
+
+    .ordernow{
+        position: absolute;
+        top: 21px;
+        right: 200px;
+        color: #FAF3D3;
+        border-radius: 50px;
+        font-size: 25px;
+        font-weight: 600;
+        padding: 3px 25px;
+        background-color: #CD2D1A;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-decoration: none;
+    } 
+
+    .banner nav > div{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .header .icons .usericon {
+      height: 60px;
+      width: 60px;
+      color: #201F1F;
+      transition: color 0.3s;
+      position: absolute;
+      top: 16px;
+      right: 105px;
+    }
+
+    .header .icons .carticon {
+      height: 50px;
+      width: 50px;
+      color: #201F1F;
+      transition: color 0.3s;
+      position: absolute;
+      top: 22px;
+      right:48px;
+    }
+    .banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;     
+}
+.filter{
+    opacity: 40%;
+    height: 772px;
+}
+
+.banner h1 {
+    position: relative;
+    z-index: 10;    
+    color: #ffffff;
+    font-size: 150px;
+    text-align: center;
+    padding-top: 500px;
+    padding-right: 100px;
+    color: #CD2D1A;
+    line-height: 0.8;
+    font-weight: 900;
+    text-align: end;
+}
+.newslist{
+    position: relative;
+    height: auto;
+}
+.newsicon img{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    bottom: 850px;
+    left: 80px;
+    transform: rotate(-10deg);
+    z-index: -1;
+}
+.news-section {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+  
+}
+
+.newsgrid {
+  width:70%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 350px); 
+  grid-template-rows: repeat(2,500px);
+  gap:80px;                 
+  justify-content: center;
+  margin: auto;
+  margin-top: 250px;
+}
+
+.newscard {
+  border-radius: 24px;
+  overflow: hidden;
+  background: #b5afb3;
+
+}
+.cardtext{
+  padding: 10px 20px;
+}
+
+.newscard:nth-child(1),
+.newscard:nth-child(6){
+    background-color: #F65F4D;
+}
+.newscard:nth-child(2),
+.newscard:nth-child(4){
+    background-color: #408AD0;
+}
+
+.newscard:nth-child(3),
+.newscard:nth-child(5){
+    background-color: #F99400;
+}
+
+.newscard img{
+    width: 100%;
+    height: 60%;
+}
+.cardtext{
+    color: #FFF8F8;
+    font-weight: 500;
+    line-height: 2;
+}
+.cardtitle{
+    font-size: 25px;
+}
+.cardate{
+    font-size: 15px;
+    text-align: right
+}
+.cardtext p{
+    font-size: 28px;
+}
+
+.two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsicon2 img{
+    width: 230px;
+    height: 300px;
+    position: absolute;
+    right: 160px;
+    bottom: -150px;
+    z-index: -1;
+}
+.social{
+    width: 5%;
+    display: flex;
+    gap: 10px;
+    fill: #CD2D1A;
+    position: relative;
+   left:1200px;
+   top: 224px;
+ 
+}
+
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: #6593C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: #CD2D1A;
+    font-weight: 500;
+    margin-top: 120px;
+}
+.footer img{
+height: 80%;
+}

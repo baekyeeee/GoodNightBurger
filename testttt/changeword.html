@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+   .btn {
+  position: relative;
+}
+
+.btn::after {
+  content: "改成這個字";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.btn:hover::after {
+  opacity: 1;
+}
+
+.btn:hover {
+  color: transparent; /* 隱藏原文字 */
+}
+
+    </style>
+</head>
+<body>
+ <button class="btn">原本文字</button>
+
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .story {
+          position: relative;
+          display: grid;
+          grid-template-columns: 1fr 1fr;  /* 左文字 / 右圖片 */
+          align-items: center;
+          gap: 40px;
+          padding: 80px 0;
+}
+
+          /* 中間橫跨背景色 */
+          .story::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 40%;
+            height: 45%;
+            background-color: #88A9C6; /* 你圖中那個藍色 */
+            z-index: -1;
+          }
+
+          .story-text {
+            font-size: 15px;
+            line-height: 1.9;
+            padding-left: 60px;
+          }
+
+          .story-img img {
+            width: 100%;
+            display: block;
+            border-radius: 10px;
+            margin-bottom: 50px;
+          }
+
+    </style>
+</head>
+<body>
+    <section class="story">
+  <div class="story-text">
+    從包裝漢堡的方式…（你的文字）
+  </div>
+  <div class="story-img">
+    <img src="firstpic.png" alt="">
+  </div>
+</section>
+
+</body>
+</html>
